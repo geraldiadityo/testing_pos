@@ -1,15 +1,9 @@
-Berikut adalah versi prompt yang sudah dioptimalkan kembali untuk menegaskan bahwa ini murni _frontend-only_ yang mengkonsumsi _external API_, serta mengaplikasikan _best practices_ (seperti pemisahan _layer_ untuk _API calls_).
 
-Di bawahnya, saya juga telah menyusun isi file `plan.md` dalam bahasa Inggris yang bisa langsung Anda gunakan sebagai panduan atau diberikan kepada AI agent.
-
-### 1. Prompt yang Sudah Dioptimalkan (Copy-Paste ke AI Agent)
-
-> **Role & Context:**
+> 
 > You are a Senior Frontend Engineer expert in Next.js 15 and the modern React ecosystem. Your task is to design the UI architecture and build highly reusable components for my dashboard application.
 > **Tech Stack & Environment:**
 >
 > - Framework: Next.js 15 (App Router strictly required)
-> - Package Manager: Bun
 > - Language: TypeScript (Strict mode)
 > - Styling: Tailwind CSS, Shadcn UI, TailAdmin (for dashboard layout reference)
 > - Data Management: TanStack Table (React Table v8) + TanStack Query (React Query v5)
@@ -33,10 +27,6 @@ Di bawahnya, saya juga telah menyusun isi file `plan.md` dalam bahasa Inggris ya
 > Please review the provided `plan.md` first. Once you understand the structure and plan, proceed to generate the complete implementation code for the requested components step-by-step according to the plan.
 
 ---
-
-### 2. Isi File `plan.md` (Bahasa Inggris)
-
-Simpan teks di bawah ini sebagai `plan.md` di _root directory_ project Anda, atau berikan langsung ke AI agent.
 
 ````markdown
 # Frontend Dashboard Implementation Plan
